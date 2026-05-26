@@ -22,7 +22,21 @@ Thumbs.db
 dist/
 build/
 out/
+*.out
+*.test
+
+# Go binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+vendor/
 
 # Logs
 *.log
 npm-debug.log*
+
+# Executable
+./meshsync
